@@ -49,10 +49,6 @@ function Navbar({visible, show}) {
 							<FaThLarge size={ICON_SIZE} />
 							<span>Dashboard</span>
 						</NavLink>
-						<NavLink to="/analytics" className="nav-link">
-							<FaChartBar size={ICON_SIZE} />
-							<span>Analytics </span>
-						</NavLink>
 						<NavLink to="/orders" className="nav-link">
 							<FaShoppingCart size={ICON_SIZE} />
 							<span>Orders</span> 
